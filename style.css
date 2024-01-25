@@ -1,0 +1,104 @@
+*{
+  font-family: 'Afacad', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f6eff6;
+  justify-content: center;
+  margin-left: 7%;
+  font-size: 18px;
+}
+
+h1{
+/*  font-size: 28px; */
+  margin: 10px;
+  font-weight: 600;
+  margin-left: 7%;
+  color: #7e2d7e;
+  padding: 20px; 
+}
+
+p{
+  color: #7e2d7e;
+  padding: 10px; 
+  font-size: 14px;
+}
+
+.campo{
+  margin-bottom: 1em;
+}
+
+.campo label{
+  color: #993399;
+  margin-bottom: 0.2em;
+  display: block;
+}
+
+.data-nascimento{
+  color: #993399;
+  display: ;
+  margin-bottom: 1em;
+}
+
+.data-nascimento label{
+  color: #993399;
+  margin-bottom: 0.2em;
+}
+
+h4{
+  color: #7e2d7e;
+  padding: 8px;
+}
+
+.data-nascimento input[type="number"],
+.data-nascimento select,
+.campo input[type="text"], 
+.campo input[type="number"], 
+.campo input[type="email"],
+.campo select, 
+.campo textarea{
+  color: #7e2d7e; 
+  padding: 0.2em;
+  border: 1px solid #993399;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: inline-block; 
+  border-radius: 5px; 
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+  background: #E6E6FA;
+}
+
+.campo textarea{
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+button{
+  margin: 20px 0;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #993399;
+  cursor: pointer;
+  padding: 15px 25px;
+  font-size: 16px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  position: absolute;
+}
+
+button:hover{
+  color: #7e2d7e;
+  border: 1px solid #7e2d7e;
+  background-color: #D8BFD8;
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+footer .rodape{
+  background-color: #993399;
+  margin: 10px;
+}
