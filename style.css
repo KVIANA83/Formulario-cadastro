@@ -68,7 +68,7 @@ h4{
   border-radius: 5px; 
 }
 
-.campo input:focus, .campo select:focus, .campo textarea:focus {
+.campo input:focus, .campo select:focus, .campo textarea:focus .data-nascimento input:focus, .data-nascimento select:focus{
   background: #E6E6FA;
 }
 
