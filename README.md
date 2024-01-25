@@ -1,5 +1,5 @@
 ## Formulário de Cadastro
 
-**Formulário de cadastro de login onde usuário preenche os campos com seus dados pessoais e faz cadastro de senha.**
+**Um formulário de cadastro de login onde o usuário preenche os campos com seus dados pessoais e cria uma senha.**
 
-**Usando apenas HTML, CSS para estilização e JavaScript para adicionar interatividade a aplicação**
+**Utilizando apenas HTML para a estrutura, CSS para estilização e JavaScript para adicionar interatividade à aplicação.**
